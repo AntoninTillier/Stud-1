@@ -1,0 +1,15 @@
+To use our project, you need OCaml on your computer.
+You must also have an interpreter (Emacs, MacCaml, ...) or a terminal.
+To launch our project in the terminal, type the following:
+
+ocaml
+#load "graphics.cma";; (* loads graphics module *)
+#load "unix.cma";;(* load Unix module *)
+open Unix;;(* opens Unix module *)
+chdir "path to project file";;(* absolute path to project file *)
+#use "jeu_allumette.oml";;(* Executes the program in the file *)
+
+
+The project is played in graphic mode with mouse clicks.
+All requested functions are implemented.
+To manage the sticks, we use lists.
